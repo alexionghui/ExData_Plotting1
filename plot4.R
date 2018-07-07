@@ -31,7 +31,7 @@ with(selectPowerConsumption, plot(POSIXTime,Global_active_power,type = "l",
          ylab = "Global Active Power (kilowatts)",  xlab = NA     ))
 
 #second plot
-with(selectPowerConsumption, plot(POSIXTime,Global_active_power,type = "l", 
+with(selectPowerConsumption, plot(POSIXTime,Voltage,type = "l", 
       ylab = "Voltage",  xlab = "datetime"    ))
 
 #third plot
